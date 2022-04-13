@@ -1,5 +1,5 @@
 * {
-  background-color: #2e2d2d;
+  background-color: #02020f;
   margin: 0;
   border: 0;
   -webkit-box-sizing: border-box;
@@ -65,6 +65,7 @@ header .head-image img {
 main {
   background-image: url(/images/bg-curvy-desktop.svg);
   background-position: center center;
+  background-size: contain;
   height: 100%;
   background-repeat: no-repeat;
 }
@@ -79,7 +80,7 @@ main .texty h4 {
 }
 
 main .texty p {
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
 }
@@ -96,7 +97,11 @@ main .texty a {
   grid-gap: 3%;
   -ms-grid-columns: auto auto;
       grid-template-columns: auto auto;
-  margin-top: 10%;
+  margin-top: 15%;
+}
+
+.grid div {
+  padding: 5%;
 }
 
 @media screen and (max-width: 600px) {
@@ -104,5 +109,71 @@ main .texty a {
     -ms-grid-columns: auto;
         grid-template-columns: auto;
   }
+}
+
+.flecs {
+  margin: 2vh 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flecs a {
+  color: #0a9779;
+  border-bottom: 1px solid #0a9779;
+}
+
+.flecs img {
+  width: 100%;
+  height: 100%;
+}
+
+.flecs div {
+  padding: 7%;
+}
+
+.flecs .text-area {
+  text-align: justify;
+  margin: 5%;
+}
+
+.flecs .text-area h4 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.flecs .text-area p {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 600px) {
+  .flecs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.round-border .one {
+  height: 50%;
+}
+
+.round-border .three {
+  height: 50%;
+}
+
+.round-border img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.round-border div {
+  width: auto;
 }
 /*# sourceMappingURL=index.css.map */
