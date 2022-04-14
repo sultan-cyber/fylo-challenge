@@ -213,6 +213,7 @@ main .texty a {
   padding: 1vh 2vw;
   border-radius: 25%;
   color: black;
+  padding: 5px;
 }
 
 @media screen and (max-width: 600px) {
@@ -227,6 +228,7 @@ main .texty a {
   padding: 1vh 1vw;
   border-radius: 30%;
   color: black;
+  padding: 5px;
 }
 
 footer {
